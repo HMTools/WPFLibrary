@@ -4,7 +4,7 @@
 [![NuGet](https://img.shields.io/nuget/v/HMTools.WPFLibrary.svg)](https://www.nuget.org/packages/HMTools.WPFLibrary)
 
 ## About
-WPF Library with common use resources.
+WPF Library for common use scenarios.
 
 ## Features
 - Behaviors (Treeview || Drag & Drop)
