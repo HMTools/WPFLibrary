@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPFLibrary.ValueConverters">
+    <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    <local:BitmapToBitmapImageConverter x:Key="BitmapToBitmapImageConverter"/>
+    <local:BoolToVisibilityCollapsedConverter x:Key="BoolToVisibilityCollapsedConverter"/>
+    <local:IsLastItemInContainerConverter x:Key="IsLastItemInContainerConverter"/>
+    <local:EnumToStringConverter x:Key="EnumToStringConverter"/>
+    <local:ReverseBoolConverter x:Key="ReverseBoolConverter"/>
+    <local:TwoIntsToBoolConverter x:Key="TwoIntsToBoolConverter"/>
+    <local:MultiValueEqualityConverter x:Key="MultiValueEqualityConverter"/>
+    <local:EqualityConverter x:Key="EqualityConverter"/>
+</ResourceDictionary>

@@ -6,7 +6,7 @@ using System.Windows.Data;
 
 namespace WPFLibrary.ValueConverters
 {
-    public class EqualConverter : IValueConverter
+    public class EqualityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {

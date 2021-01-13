@@ -1,0 +1,12 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:WPFLibrary.Styles">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ButtonStylesDictionary.xaml"/>
+        <ResourceDictionary Source="TextBlockStylesDictionary.xaml"/>
+        <ResourceDictionary Source="LabelStylesDictionary.xaml"/>
+        <ResourceDictionary Source="TextBoxStylesDictionary.xaml"/>
+        <ResourceDictionary Source="RectangleStylesDictionary.xaml"/>
+        <ResourceDictionary Source="DataGridStylesDictionary.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
