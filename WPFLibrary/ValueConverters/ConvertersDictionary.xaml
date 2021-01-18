@@ -10,4 +10,5 @@
     <local:TwoIntsToBoolConverter x:Key="TwoIntsToBoolConverter"/>
     <local:MultiValueEqualityConverter x:Key="MultiValueEqualityConverter"/>
     <local:EqualityConverter x:Key="EqualityConverter"/>
+    <local:CharToStringConverter x:Key="CharToStringConverter"/>
 </ResourceDictionary>
