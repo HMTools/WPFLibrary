@@ -1,5 +1,6 @@
 
 
+
 # WPFLibrary
 [![NuGet](https://img.shields.io/nuget/v/HMTools.WPFLibrary.svg)](https://www.nuget.org/packages/HMTools.WPFLibrary)
 
@@ -14,6 +15,7 @@ WPF Library for common use scenarios.
 - Freezables (Binding Proxy)
 - Validations
 - Value Converters
+- Styles
 
 ## Note
 ***Please add an issue on this repository, for every bug fix or additional feature that you wish I'll add.</br>
@@ -119,6 +121,22 @@ Install-Package HMTools.WPFLibrary
 	<SomeControl Command="{Binding Source={StaticResource UCProxy},
 		Path=Data.SomeCommand}" 
 		CommandParameter="{Binding }"/>
+
+### Styles
+#### Import - App.xaml
+	<Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/WPFLibrary;component/Styles/StylesDictionary.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/WPFLibrary;component/ValueConverters/ConvertersDictionary.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Style TargetType="{x:Type TextBox}" BasedOn="{StaticResource TextBox_Base}"/>
+            <Style TargetType="{x:Type DataGrid}" BasedOn="{StaticResource DataGrid_Base}"/>
+        </ResourceDictionary>
+    </Application.Resources>
+
+#### Usage
+	<Button Style="{StaticResource Button_ImageButton}"/>
 
 ## UML Diagrams
 ### Commands
