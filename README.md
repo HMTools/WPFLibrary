@@ -139,17 +139,17 @@ Install-Package HMTools.WPFLibrary
 	<Button Style="{StaticResource Button_ImageButton}"/>
 
 ## UML Diagrams
-### Commands
-![](./ReadmeResources/CommandsUML.svg?raw=1)
-### Custom Attached Properties
-![](./ReadmeResources/CustomAttachedPropertiesUML.svg?raw=1)
-### Enum Binding
-![](./ReadmeResources/EnumBindingUML.svg?raw=1)
-### Freezables
-![](./ReadmeResources/FreezablesUML.svg?raw=1)
-### Validations
-![](./ReadmeResources/ValidationsUML.svg?raw=1)
 ### Behaviors
-![](./ReadmeResources/BehaviorsUML.svg?raw=1)
+![BehaviorsUML](https://user-images.githubusercontent.com/42064794/107528961-129ce900-6bc3-11eb-9b94-f73322815d1d.png)
+### Commands
+![CommandsUML](https://user-images.githubusercontent.com/42064794/107528962-13357f80-6bc3-11eb-8562-895341570395.png)
+### Custom Attached Properties
+![CustomAttachedPropertiesUML](https://user-images.githubusercontent.com/42064794/107528964-13357f80-6bc3-11eb-9205-f9382902b75a.png)
+### Enum Binding
+![EnumBindingUML](https://user-images.githubusercontent.com/42064794/107528965-13ce1600-6bc3-11eb-8030-30f9f8245110.png)
+### Freezables
+![FreezablesUML](https://user-images.githubusercontent.com/42064794/107528968-13ce1600-6bc3-11eb-85a2-482fa1787b35.png)
+### Validations
+![ValidationsUML](https://user-images.githubusercontent.com/42064794/107528969-1466ac80-6bc3-11eb-8bc5-c5deb5aeb95a.png)
 ### Value Converters
-![](./ReadmeResources/ValueConvertersUML.svg?raw=1)
+![ValueConvertersUML](https://user-images.githubusercontent.com/42064794/107528958-12045280-6bc3-11eb-975b-90edd7a91ffe.png)
