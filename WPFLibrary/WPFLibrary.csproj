@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <UseWPF>true</UseWPF>
     <PackageId>HMTools.WPFLibrary</PackageId>
-    <Version>1.1.0.1</Version>
+    <Version>1.1.0.2</Version>
     <Authors>HMTools</Authors>
     <Company>HMTools</Company>
     <Description>Library for common WPF scenarios</Description>
