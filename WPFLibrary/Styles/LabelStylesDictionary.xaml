@@ -3,6 +3,7 @@
                     xmlns:local="clr-namespace:WPFLibrary.Styles">
     <Style x:Key="Label_Base_Header" TargetType="{x:Type Label}">
         <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
     </Style>
     <Style x:Key="Label_Header1" TargetType="{x:Type Label}" BasedOn="{StaticResource Label_Base_Header}">
         <Setter Property="FontSize" Value="32"/>
