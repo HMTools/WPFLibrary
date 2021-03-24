@@ -36,11 +36,27 @@ namespace WPFLibrary.Behaviors
             if (dependencyObject is WebBrowser webBrowser)
             {
                 webBrowser.NavigateToString(e.NewValue as string ?? "&nbsp;");
-                SetSilent(webBrowser, true);
+                SetSilent(webBrowser, GetSilent(webBrowser));
             }
         }
 
-        public static void SetSilent(WebBrowser browser, bool silent)
+        public static readonly DependencyProperty SilentProperty = DependencyProperty.RegisterAttached(
+            "Silent",
+            typeof(bool),
+            typeof(BrowserBehavior));
+
+        [AttachedPropertyBrowsableForType(typeof(WebBrowser))]
+        public static bool GetSilent(WebBrowser d)
+        {
+            return (bool)d.GetValue(SilentProperty);
+        }
+
+        public static void SetSilent(WebBrowser d, bool value)
+        {
+            d.SetValue(SilentProperty, value);
+        }
+
+        public static void SetBrowserSilent(WebBrowser browser, bool silent)
         {
             if (browser == null)
                 throw new ArgumentNullException("browser");
