@@ -36,7 +36,7 @@ namespace WPFLibrary.Behaviors
             if (dependencyObject is WebBrowser webBrowser)
             {
                 webBrowser.NavigateToString(e.NewValue as string ?? "&nbsp;");
-                SetSilent(webBrowser, GetSilent(webBrowser));
+                SetBrowserSilent(webBrowser, GetSilent(webBrowser));
             }
         }
 
@@ -56,7 +56,8 @@ namespace WPFLibrary.Behaviors
             d.SetValue(SilentProperty, value);
         }
 
-        public static void SetBrowserSilent(WebBrowser browser, bool silent)
+
+        private static void SetBrowserSilent(WebBrowser browser, bool silent)
         {
             if (browser == null)
                 throw new ArgumentNullException("browser");
